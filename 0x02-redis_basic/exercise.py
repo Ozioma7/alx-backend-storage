@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""Declaration of redis class and methods"""
+"""Declaration of redis class and methods"""
 import redis
 from uuid import uuid4
 from typing import Union, Callable, Optional
@@ -91,4 +91,3 @@ class Cache:
         except Exception:
             value = 0
         return value
-
